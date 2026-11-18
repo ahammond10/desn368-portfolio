@@ -1,10 +1,58 @@
-/* The template's placeholder stylesheet.
-   Replace it with the style.css from your homepage Pen. */
-
 body {
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
-  max-width: 640px;
-  margin: 48px auto;
-  padding: 0 24px;
+  background-color: #142338;
+  color: #E4EDF5;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
 }
+
+
+h2 {
+  color: #96C7FF;
+}
+
+
+ol {
+  color: #96C7FF;
+}
+
+p {
+  color:  #E0EAF6;
+}
+h1 {
+  color: #96C7FF;
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: #68E8C4;
+}
+a:visited {
+  color: #B6A5FF;
+}
+
+a:hover {
+  color: Yellow;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.done {
+  background-color: DarkSlateGray;
+}
+
+#week-2 {
+  font-size: 20px;
+}
+
