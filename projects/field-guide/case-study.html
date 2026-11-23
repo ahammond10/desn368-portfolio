@@ -23,41 +23,41 @@
     <section id="design">
       <h2>What design choices did you make and why?</h2>
 
-      <p>I wanted the page to feel like Pokémon Emerald, so I made the background dark green and the sections a lighter green. I picked yellow for the headings because it reminded me of the Pokémon logo.</p>
+      <p>I went with dark green for the background and a lighter green for the sections because I wanted the page to feel like Pokémon Emerald. I made the headings yellow because I wanted them to look more like the Pokémon logo.</p>
 
-      <p>I used a pixel font for the headings because it goes with the sprites. For the directions, I used Roboto because it’s easier to read a full paragraph in that font.</p>
+      <p>I liked how the pixel font looked next to the sprites, so I used it for the headings. For the directions, I went with Roboto because it was easier for me to read a whole paragraph in that font.</p>
     </section>
 
     <section id="challenges">
       <h2>What was difficult to code? How did you solve it?</h2>
 
-      <p>One issue I noticed was the tip at the bottom of the shiny Mew section. The sentence was all on one line, and I had to scroll sideways inside the box to read it.</p>
+      <p>One thing I got stuck on was the tip in the shiny Mew section. It was all on one line, so I had to scroll sideways just to read the last few words.</p>
 
-      <p>I split the tip into three short lines in the HTML. The pre tag keeps the line breaks where I put them, so I could decide where the sentence broke and keep the tip box from my design.</p>
+      <p>I fixed it by splitting the tip into three lines in the HTML. The <code>&lt;pre&gt;</code> tag keeps the line breaks where I put them, so I could make the whole tip fit in the box.</p>
     </section>
 
     <section id="mobile">
       <h2>How did you adapt your design for mobile?</h2>
 
-      <p>On desktop, the sidebar takes up 300px. That would take up most of a phone screen, so at 640px and below I moved the links above the guide and let them wrap onto another line.</p>
+      <p>My sidebar is 300px wide, which takes up most of a phone screen. At 640px or smaller, I put the links above the guide so there’s more room for the directions. The links wrap when they can’t all fit on one line.</p>
 
-      <p>I hid the sprites on mobile so each checklist could use the full width. I also stacked the two round footer links so you can reach both of them by scrolling down.</p>
+      <p>I also hid the sprites so the checklists could use the whole width. At the bottom, I put the two round links one above the other so they’d fit on a phone.</p>
     </section>
 
     <section id="learning">
       <h2>What did you learn about Flexbox or CSS positioning?</h2>
 
-      <p>I learned that putting display: flex on the main container puts the sidebar and guide next to each other. For mobile, I could switch that same container to a column and keep the sections in order.</p>
+      <p>I learned that <code>display: flex</code> goes on the box that holds both the sidebar and the guide. That puts them next to each other. On mobile, I could change the direction to <code>column</code> and the sidebar would go above the guide.</p>
 
-      <p>I also learned why the sticky sidebar uses align-self: flex-start. That keeps the sidebar the height of its links and gives it room to stay in view while I scroll through the longer guide.</p>
+      <p>I also learned what <code>align-self: flex-start</code> does for my sidebar. It keeps the sidebar only as tall as its links. That gives it room to stick near the top while I scroll down to the next section.</p>
     </section>
 
     <section id="improvements">
       <h2>What would you add or change with more time?</h2>
 
-      <p>I’d add a map of the warp panels in Team Aqua’s Hideout. My Master Ball section tells you to look for the room with four item balls, but a map could show which panels actually take you there.</p>
+      <p>I’d add a map for Team Aqua’s Hideout. Right now I tell you to look for the room with four item balls, but if it’s your first time there, you still have to figure out which warp panels to take. I’d show that route on the map.</p>
 
-      <p>I’d also put a regular pink Mew next to the shiny blue Mew in the last section. Someone doing the hunt for the first time could see exactly which one they’re looking for.</p>
+      <p>I’d also put a regular Mew next to shiny Mew in the last section. That way you could see the pink one and the blue one side by side and know which one to look for.</p>
     </section>
   </main>
 
@@ -73,8 +73,8 @@
       </li>
     </ul>
 
-    <small>© 2026 Aiden Hammond · The Shiny Mew Catch Guide<br>
-</small>
+    <small>© 2026 Aiden Hammond · The Shiny Mew Catch Guide<br></small>
   </footer>
 </body>
+
 </html>
